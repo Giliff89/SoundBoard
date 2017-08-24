@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		334F465C1F4E0E5800A6CD9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334F465B1F4E0E5800A6CD9B /* AppDelegate.swift */; };
-		334F465E1F4E0E5800A6CD9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334F465D1F4E0E5800A6CD9B /* ViewController.swift */; };
 		334F46611F4E0E5800A6CD9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334F465F1F4E0E5800A6CD9B /* Main.storyboard */; };
 		334F46641F4E0E5800A6CD9B /* Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 334F46621F4E0E5800A6CD9B /* Soundboard.xcdatamodeld */; };
 		334F46661F4E0E5800A6CD9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334F46651F4E0E5800A6CD9B /* Assets.xcassets */; };
 		334F46691F4E0E5800A6CD9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334F46671F4E0E5800A6CD9B /* LaunchScreen.storyboard */; };
+		334F46711F4E432300A6CD9B /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334F46701F4E432300A6CD9B /* AddItemViewController.swift */; };
+		334F46731F4E436C00A6CD9B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334F46721F4E436C00A6CD9B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		334F46581F4E0E5800A6CD9B /* Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		334F465B1F4E0E5800A6CD9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		334F465D1F4E0E5800A6CD9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		334F46601F4E0E5800A6CD9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		334F46631F4E0E5800A6CD9B /* Soundboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soundboard.xcdatamodel; sourceTree = "<group>"; };
 		334F46651F4E0E5800A6CD9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		334F46681F4E0E5800A6CD9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		334F466A1F4E0E5800A6CD9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334F46701F4E432300A6CD9B /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		334F46721F4E436C00A6CD9B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				334F465B1F4E0E5800A6CD9B /* AppDelegate.swift */,
-				334F465D1F4E0E5800A6CD9B /* ViewController.swift */,
+				334F46721F4E436C00A6CD9B /* TableViewController.swift */,
+				334F46701F4E432300A6CD9B /* AddItemViewController.swift */,
 				334F465F1F4E0E5800A6CD9B /* Main.storyboard */,
 				334F46651F4E0E5800A6CD9B /* Assets.xcassets */,
 				334F46671F4E0E5800A6CD9B /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				334F465E1F4E0E5800A6CD9B /* ViewController.swift in Sources */,
 				334F46641F4E0E5800A6CD9B /* Soundboard.xcdatamodeld in Sources */,
 				334F465C1F4E0E5800A6CD9B /* AppDelegate.swift in Sources */,
+				334F46711F4E432300A6CD9B /* AddItemViewController.swift in Sources */,
+				334F46731F4E436C00A6CD9B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
